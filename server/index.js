@@ -1,10 +1,10 @@
 const express = require('express')
 
 
-const port = 1337
+const port = 3000
 
 const app = express()
-app.use(express.static('./public/dist'))
+app.use(express.static('./public'))
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "locahost")
