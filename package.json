@@ -1,0 +1,32 @@
+{
+  "name": "alastair-proxy",
+  "version": "1.0.0",
+  "description": "> Project description",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apex-rpt15/alastair-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apex-rpt15/alastair-proxy/issues"
+  },
+  "homepage": "https://github.com/apex-rpt15/alastair-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
