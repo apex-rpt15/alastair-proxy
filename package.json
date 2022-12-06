@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/apex-rpt15/alastair-proxy#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "react": "^16.9.0"
   },
   "devDependencies": {
